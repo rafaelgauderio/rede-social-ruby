@@ -13,4 +13,9 @@ class AdminController < ApplicationController
         false
       end
     end
+
+    def edit 
+      @admin = Admin.find(params[:id])
+    end
+
   end
