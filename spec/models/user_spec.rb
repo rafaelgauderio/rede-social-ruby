@@ -17,7 +17,7 @@ RSpec.describe User, type: :model do
 
     user = User.new(
       name: "rafael",
-      email: "rafael@teste.com",
+      email: "rafael@user.com",
       phone: "9000009090",
       password: "123456"
     )
@@ -29,7 +29,7 @@ RSpec.describe User, type: :model do
   it "user should have a name" do
 
     user = User.new(
-      email: "rafael @teste.com",
+      email: "rafael @user.com",
       phone: "9000009090",
       password: "123456",
       avatar: fixture_file_upload(Rails.root.join("spec", "support", "test-avatar.png"), "image/png"),
