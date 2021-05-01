@@ -6,14 +6,15 @@
         <a class="nav-link" href="<%= root_path %>">Timeline</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Followers</a>
+        <a class="nav-link" href="#">Seguidores</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Following</a>
+        <a class="nav-link" href="#">Seguindo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Quem eu posso seguir</a>
       </li>
+
       <li class="nav-item <%= current_page?(user_profile_path)? "active" : "" %>">
         <a class="nav-link" href="<%= user_profile_path %>">Meu perfil</a>
       </li>
